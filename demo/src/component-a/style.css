@@ -1,0 +1,27 @@
+.class {
+  color: rebeccapurple;
+}
+
+.class__element {
+  background-color: beige;
+}
+
+.class__element--active {
+  border: 1px solid yellowgreen;
+}
+
+.class-red {
+  color: red;
+}
+
+#id {
+  display: inline;
+}
+
+a {
+  text-decoration: saddlebrown;
+}
+
+a:hover {
+  border-bottom: 1px solid beige;
+}
