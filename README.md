@@ -25,7 +25,7 @@ module.exports = {
         use: [
           "style-loader",
           {
-            loader: "css-modules-ts-loader",
+            loader: "@greyskullrocks/css-modules-ts-loader",
             options: {
               banner: "Hey, css-modules-ts-loader created this file for you!"
             }
