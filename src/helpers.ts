@@ -51,12 +51,12 @@ export function filterReservedKeywords(selector: string): boolean {
  * @param options string
  */
 export function buildbanner(options?: OptionsInterface): string {
-  let banner = `// This is an auto generated file. \n// Please do not edit. \n\n`;
+  let banner = `// This is an auto generated file.\n// Please do not edit.\n\n`;
   if (options) {
     if (options.banner === false) {
       banner = "";
     } else {
-      banner = `// ${options.banner} \n\n`;
+      banner = `// ${options.banner}\n\n`;
     }
   }
   return banner;
@@ -71,7 +71,7 @@ export function buildTsExports(moduleExports, filename: string): string {
   let cssModuleDefinition = "";
   Object.keys(moduleExports.locals).map(key => {
     if (!filterReservedKeywords(key)) {
-      cssModuleDefinition += `export const ${key}: string; \n`;
+      cssModuleDefinition += `export const ${key}: string;\n`;
     }
   });
   return cssModuleDefinition;

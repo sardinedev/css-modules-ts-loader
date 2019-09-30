@@ -11,7 +11,7 @@ test("if string is not a reserved keyword returns false", () => {
 
 test("if no options are set returns default banner message", () => {
   expect(buildbanner()).toBe(
-    `// This is an auto generated file. \n// Please do not edit. \n\n`
+    `// This is an auto generated file.\n// Please do not edit.\n\n`
   );
 });
 
@@ -22,7 +22,7 @@ test("if user sets `banner` to `false` it should return an empty string", () => 
 
 test("if user sets a banner message it should return it with the proper format", () => {
   const options: OptionsInterface = { banner: "I am a banner" };
-  const expectedResult = `// I am a banner \n\n`;
+  const expectedResult = `// I am a banner\n\n`;
   expect(buildbanner(options)).toBe(expectedResult);
 });
 
@@ -33,7 +33,7 @@ test("creates the correct Typescript syntax to export css types", () => {
       two: "_2e43ghnXX24M2ZFgLzgCyc"
     }
   };
-  const expected = `export const one: string; \nexport const two: string; \n`;
+  const expected = `export const one: string;\nexport const two: string;\n`;
   expect(buildTsExports(modulesExports, "style.scss")).toBe(expected);
 });
 
@@ -44,7 +44,7 @@ test("creates the correct Typescript syntax to export css types and ignore reser
       two: "_2e43ghnXX24M2ZFgLzgCyc"
     }
   };
-  const expected = `export const two: string; \n`;
+  const expected = `export const two: string;\n`;
   expect(buildTsExports(modulesExports, "style.scss")).toBe(expected);
 });
 
