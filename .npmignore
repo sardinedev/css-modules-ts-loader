@@ -10,3 +10,8 @@ coverage
 demo
 src
 test
+CODE_OF_CONDUCT.md
+LICENSE
+README.md
+.circleci/config.yml
+.github

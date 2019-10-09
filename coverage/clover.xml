@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1562526810138" clover="3.2.0">
-  <project timestamp="1562526810138" name="All files">
+<coverage generated="1570636914937" clover="3.2.0">
+  <project timestamp="1570636914937" name="All files">
     <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4" elements="23" coveredelements="23" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
-    <file name="helpers.ts" path="/mnt/c/Users/Hugo/Documents/GitHub/css-modules-typings-loader/src/helpers.ts">
+    <file name="helpers.ts" path="/Users/hnogueira/Documents/web/css-modules-ts-loader/src/helpers.ts">
       <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
       <line num="5" count="6" type="stmt"/>
       <line num="40" count="6" type="stmt"/>
