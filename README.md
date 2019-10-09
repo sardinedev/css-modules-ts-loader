@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/greyskullrocks/css-modules-typings-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/greyskullrocks/css-modules-typings-loader)
+[![codecov](https://codecov.io/gh/greyskullrocks/css-modules-ts-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/greyskullrocks/css-modules-ts-loader)
 
 # css-modules-ts-loader
 
